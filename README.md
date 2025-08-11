@@ -152,12 +152,12 @@ with mlflow.start_run(run_name="Content_Based_RecSys"):
 
 ## 🕵️ Results Summary
 
-| Model | Precision | Recall | F1-Score | RMSE | Diversity |
-|-------|-----------|--------|----------|------|-----------|
-| Popularity-Based | 1.00 | 0.94 | 0.97 | - | Medium |
-| Content-Based | 0.30 | 1.00 | 0.46 | - | 0.27 |
-| Collaborative (SVD) | 0.98 | 0.98 | 0.98 | 0.26 | High |
-| Weighted Hybrid | - | - | - | - | High |
+| Model | Precision | Recall | F1-Score |
+|-------|-----------|--------|----------|
+| Popularity-Based | 1.00 | 0.94 | 0.97 | 
+| Content-Based | 0.30 | 1.00 | 0.46 | - | 
+| Collaborative (SVD) | 0.98 | 0.98 | 0.98 |
+
 
 ## 🔍 Key Findings
 
@@ -176,12 +176,12 @@ This project specifically addresses:
 
 
 ### Areas for Contribution
-- Additional fairness metrics implementation like fairness 360
-- New recommendation algorithms
-- Performance optimizations
-- Documentation improvements
-- Dataset expansion
-- Productiion grade python files
+[] Additional fairness metrics implementation like fairness 360
+[] New recommendation algorithms
+[] Performance optimizations
+[] Documentation improvements
+[] Dataset expansion
+[] Productiion grade python files
 
 ## 📚 References
 

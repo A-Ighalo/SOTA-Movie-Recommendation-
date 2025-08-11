@@ -2,11 +2,11 @@
 
 A comprehensive implementation and evaluation of fair and equitable recommendation systems using multiple machine learning approaches. This project explores content-based filtering, collaborative filtering, popularity-based recommendations, and hybrid models while prioritizing fairness and avoiding algorithmic bias.
 
-## 🎯 Project Overview
+##  Project Overview
 
 Recommendation systems play a central role in shaping user experiences across digital platforms. This project focuses on building recommendation systems that operate in a **fair and equitable manner**, avoiding unjust or systematic bias while promoting inclusivity through algorithmic design.
 
-### Key Features
+### 🔑 Key Features
 
 - **Multiple Recommendation Approaches**: Popularity-based, Content-based, Collaborative Filtering (SVD), and Hybrid models
 - **Comprehensive Evaluation**: Precision, Recall, F1-score, NDCG, MAP, MRR, and Diversity metrics
@@ -14,7 +14,7 @@ Recommendation systems play a central role in shaping user experiences across di
 - **Fairness Focus**: Designed to minimize demographic bias and promote equitable recommendations
 - **Real-world Dataset**: Amazon sales dataset with 1,465 products and comprehensive user reviews
 
-## 📊 Dataset
+## ℹ️ Dataset
 
 The project uses the **Amazon Sales Dataset** containing:
 - **1,465 products** across 211 unique categories
@@ -23,18 +23,17 @@ The project uses the **Amazon Sales Dataset** containing:
 - User interaction data: ratings, reviews, preferences
 
 
-## 🗂 Project Structure once run on google colab
+## 📁 Project Structure once run on google colab
 
 ```plaintext
-├── data/                # Raw and processed datasets
+├── Drive/               # Raw and processed datasets
 ├── notebooks/           # Jupyter notebooks for EDA and modeling
-├── src/                 # Source code for recommendation algorithms
 ├── mlruns/              # MLflow experiment logs
 ├── README.md            # Project documentation
 └── requirements.txt     # Dependencies
 
-
-## 🛠️ Tech Stack
+```
+## 🧑‍💻 Tech Stack
 
 - **Python 3.7+**
 - **Machine Learning**: scikit-learn, scikit-surprise
@@ -42,9 +41,9 @@ The project uses the **Amazon Sales Dataset** containing:
 - **Visualization**: matplotlib, seaborn
 - **Experiment Tracking**: MLflow
 - **Text Processing**: TF-IDF vectorization
-- **Environment**: Google Colab, Jupyter Notebooks
+- **Environment**: Google Colab
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 ```bash
@@ -151,7 +150,7 @@ with mlflow.start_run(run_name="Content_Based_RecSys"):
     mlflow.log_artifact("recommendations.json")
 ```
 
-## 📊 Results Summary
+## 🕵️ Results Summary
 
 | Model | Precision | Recall | F1-Score | RMSE | Diversity |
 |-------|-----------|--------|----------|------|-----------|
@@ -167,7 +166,7 @@ with mlflow.start_run(run_name="Content_Based_RecSys"):
 3. **Hybrid approaches** successfully balance accuracy and diversity
 4. **Popularity-based** systems are effective for trending recommendations but may lack personalization
 
-## 🎯 Fairness Considerations
+## 😇 Fairness Considerations
 
 This project specifically addresses:
 - **Demographic Bias**: Avoiding recommendations based on protected attributes
@@ -177,11 +176,12 @@ This project specifically addresses:
 
 
 ### Areas for Contribution
-- Additional fairness metrics implementation
+- Additional fairness metrics implementation like fairness 360
 - New recommendation algorithms
 - Performance optimizations
 - Documentation improvements
 - Dataset expansion
+- Productiion grade python files
 
 ## 📚 References
 
